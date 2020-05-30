@@ -20,6 +20,9 @@ This is nothing more than a braindump of ideas I have for this project. Next to 
 - Eigth Goal, make a CoreDOS frontend with a Mousedriven text user interface and easy to enable features for each game/program. (enable sound, networking, mouse, cd-rom, etc...)
 - Ninth Goal, make a Raspberry Pi version?
 
+## Licencing
+Any code I add to here will be under GPL2.0. This is because most of the FreeDOS core is also GPL2, several of the tools included are not compatible with this licence, many of which are actually abandonware including a few windows95 dlls. I will include a FOSS friendly fork for those that are troubled by this. Each non-GPL licenced product will have it's own folder with it's own licence file describing where it came from. I don't really care to much about where the program comes from as long as it gets the job done. That being said, I'll always choose the FOSS alternative if it works good enough.
+
 ## How I plan on accomplishing this...
 - use freedos as a base.
 - use as many unix/linux commands as possible
@@ -50,6 +53,7 @@ Programs to Make
 - make a dosbox.conf interpreter (probably not possible) It'll read the soundcard and speed settings and act appropriately. It'll then execute the autoexec section...
 - chroot but with dos?? (probably not possible)
 - integrate actual DOSBOX using a win32-DOS wrapper.
+- sort sort of eXoDOS/archive.org download client with setup script.
 
 If sidegoals are ever completed, categorize it into 4 compatibility modes.
 - 8088 -> RealMode only, meant for OLD computers (custom FreeDOS Kernel, drivers, utilities, etc...)
@@ -59,3 +63,13 @@ If sidegoals are ever completed, categorize it into 4 compatibility modes.
 - EFI-Boot -> If EFI is used to boot than it'll just use the 2010-Present method.
 
 DOSBox, DOSEmu, PCem will run a CDOS from a floppy image, which will then call all the non-hardware specific config and bin files from the c drive. It should boot the same in this mode as it should in Native Mode.
+
+3rd Party things to integrate/extend
+- XFDOS gui https://code.google.com/archive/p/nanox-microwindows-nxlib-fltk-for-dos/downloads?page=1
+- HX-DOS 2.17+ https://sound-dos.ucoz.ru/load/new_hxdos_extender_2_17/1-1-0-8
+- DosBOX Distro https://www.vogons.org/viewtopic.php?f=31&t=58301
+- CuteMouse
+- EtherFS
+- EtherFloppy
+- FakeCD http://www.math.uni-rostock.de/~nfa506/fakecddr.html
+- much more as I continue my planning on this.
