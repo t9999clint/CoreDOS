@@ -17,6 +17,8 @@ I will be including lots of 3rd party tools and drivers to make CoreDOS a drop-i
 - Fifth Goal, add EFI support for newer machines. This will use the Linux booting method listed above.
 - Sixth Goal, add other DOS emulation platforms. PCem, DOSemu, QEMU, etc...
 - Seventh Goal, add support for updating it's self over the network. (add a package manager)
+- Eigth Goal, make a CoreDOS frontend with a Mousedriven text user interface and easy to enable features for each game/program. (enable sound, networking, mouse, cd-rom, etc...)
+- Ninth Goal, make a Raspberry Pi version?
 
 ## How I plan on accomplishing this...
 - use freedos as a base.
