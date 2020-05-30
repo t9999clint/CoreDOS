@@ -16,7 +16,7 @@ I will be including lots of 3rd party tools and drivers to make CoreDOS a drop-i
 - Fourth secondary goal is to create a couple of trimmed down instances of Linux, which will then run DosBOX in a simular manner as the option above. This can be launched from the boot menu, and maybe even as it's own command. It'll probably just reboot when DosBOX is closed. This distro will autoconfigure attached drives, sound and video drivers, as well as full network support. (maybe even a ftp server?)
 - Fifth Goal, add EFI support for newer machines. This will use the Linux booting method listed above.
 - Sixth Goal, add other DOS emulation platforms. PCem, DOSemu, QEMU, etc...
-- Seventh Goal, add 3DFX support??
+- Seventh Goal, add support for updating it's self over the network. (add a package manager)
 
 ## How I plan on accomplishing this...
 - use freedos as a base.
