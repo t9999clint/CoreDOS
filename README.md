@@ -4,7 +4,7 @@ FreeDOS Distro based around a simple to use cli enviroment.
 This is nothing more than a braindump of ideas I have for this project. Next to no work has been done on it other than a very basic proof of concept.
 
 ## Main goals
-- I want CoreDOS to act as a standard syntax layer for all common ms-dos activities. To allow for these commands to be as hardware agnostic as possible. It will attempt to autodetect and initialize your hardware while using as little resources as possible.
+- I want CoreDOS to act as a standard syntax layer for all common DOS activities. To allow for these commands to be as hardware agnostic as possible. It will attempt to autodetect and initialize your hardware while using as little resources as possible. Think of CoreDOS like the Gnu part of Gnu/Linux...
 - When autodetection is not possible, there will be a simple set of config files that can tell the hardware what to do so it'll still initialize properly, and use the same commands and syntax as everything else.
 - This will allow for super easy to use frontends for DOS games that'll configure all your hardware/memory settings for you. (I've done this already in a proof on concept.) LaunchBox for DOS is my current favorite frontend.
 - I will be including lots of 3rd party tools and drivers to make CoreDOS a drop-in solution for 99% of machines. Meaning ZERO configuration required for most hardware. Games however will require a little bit extra configuration.
