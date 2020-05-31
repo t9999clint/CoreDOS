@@ -18,7 +18,7 @@ This is nothing more than a braindump of ideas I have for this project. Next to 
 - Sixth Goal, add other DOS emulation platforms. PCem, DOSemu, QEMU, etc...
 - Seventh Goal, add support for updating it's self over the network. (add a package manager)
 - Eigth Goal, make a CoreDOS frontend with a Mousedriven text user interface and easy to enable features for each game/program. (enable sound, networking, mouse, cd-rom, etc...)
-- Ninth Goal, make a Raspberry Pi version?
+- Ninth Goal, make a Raspberry Pi version? https://cmaiolino.wordpress.com/dosbian/
 
 ## Licencing
 Any code I add to here will be under GPL2.0. This is because most of the FreeDOS core is also GPL2, several of the tools included are not compatible with this licence, many of which are actually abandonware including a few windows95 dlls. I will include a FOSS friendly fork for those that are troubled by this. Each non-GPL licenced product will have it's own folder with it's own licence file describing where it came from. I don't really care to much about where the program comes from as long as it gets the job done. That being said, I'll always choose the FOSS alternative if it works good enough.
@@ -68,6 +68,7 @@ DOSBox, DOSEmu, PCem will run a CDOS from a floppy image, which will then call a
 - XFDOS gui https://code.google.com/archive/p/nanox-microwindows-nxlib-fltk-for-dos/downloads?page=1
 - HX-DOS 2.17+ https://sound-dos.ucoz.ru/load/new_hxdos_extender_2_17/1-1-0-8
 - DosBOX Distro https://www.vogons.org/viewtopic.php?f=31&t=58301
+- RasPi Distro https://cmaiolino.wordpress.com/dosbian/
 - CuteMouse
 - EtherFS
 - EtherFloppy
