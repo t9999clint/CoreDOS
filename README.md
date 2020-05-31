@@ -76,3 +76,5 @@ DOSBox, DOSEmu, PCem will run a CDOS from a floppy image, which will then call a
 - EtherFloppy
 - FakeCD http://www.math.uni-rostock.de/~nfa506/fakecddr.html
 - much more as I continue my planning on this.
+
+Here's a useful resource for looking up licensing and other info... http://wiki.freedos.org/wiki/index.php/Releases/1.3/Packages
