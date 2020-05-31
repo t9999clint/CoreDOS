@@ -70,6 +70,7 @@ DOSBox, DOSEmu, PCem will run a CDOS from a floppy image, which will then call a
 - HX-DOS 2.17+ https://sound-dos.ucoz.ru/load/new_hxdos_extender_2_17/1-1-0-8
 - DosBOX Distro https://www.vogons.org/viewtopic.php?f=31&t=58301
 - RasPi Distro https://cmaiolino.wordpress.com/dosbian/
+- FD-DOSSHELL https://github.com/ercanersoy/FDTUI
 - CuteMouse
 - EtherFS
 - EtherFloppy
