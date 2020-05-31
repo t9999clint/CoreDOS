@@ -66,6 +66,7 @@ DOSBox, DOSEmu, PCem will run a CDOS from a floppy image, which will then call a
 
 3rd Party things to integrate/extend
 - XFDOS gui https://code.google.com/archive/p/nanox-microwindows-nxlib-fltk-for-dos/downloads?page=1
+- Maybe FreeGEOS https://github.com/bluewaysw/pcgeos
 - HX-DOS 2.17+ https://sound-dos.ucoz.ru/load/new_hxdos_extender_2_17/1-1-0-8
 - DosBOX Distro https://www.vogons.org/viewtopic.php?f=31&t=58301
 - RasPi Distro https://cmaiolino.wordpress.com/dosbian/
